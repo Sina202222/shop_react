@@ -1,0 +1,23 @@
+echo "# sina_ecammer2" >> README.md
+git init
+git add README.md
+git add .
+git commit -m "first commit"
+git commit -m " install package django"
+git commit -m " install package React"
+git commit -m "  Add 5images + Name "
+git commit -m "  Add tailwind + navbar + pages   "
+
+
+
+
+git branch -M main
+git remote add origin https://github.com/Sina202222/sina_ecammer2.git
+git push -u origin main
+
+
+
+
+git remote add origin https://github.com/Sina202222/sina_ecammer2.git
+git branch -M main
+git push -u origin main

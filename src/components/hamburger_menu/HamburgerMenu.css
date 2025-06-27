@@ -1,0 +1,62 @@
+.hamburger-menu {
+  width: 40px;
+  height: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  z-index: 1000;
+}
+
+.line {
+  width: 100%;
+  height: 3px;
+  background: #333;
+  transition: all 0.3s ease;
+}
+
+/* حالت باز شده (تبدیل به ضربدر) */
+.hamburger-menu.active .middle {
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
+.hamburger-menu.active .top {
+  transform: translateY(11px) rotate(45deg);
+}
+
+.hamburger-menu.active .bottom {
+  transform: translateY(-11px) rotate(-45deg);
+}
+
+.nav-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  padding-top: 80px;
+  z-index: 999;
+}
+
+.nav-menu.show {
+  transform: translateX(0);
+}
+
+.nav-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li {
+  padding: 15px 20px;
+  border-bottom: 1px solid #eee;
+}

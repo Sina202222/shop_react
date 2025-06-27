@@ -1,0 +1,52 @@
+{
+    "products":[
+        {
+            "id": "1",
+            "title": "Mens cotton",
+            "price": 0.1,
+            "description": "Mens cotton",
+            "category": " cotton",
+            "image": "https://static.vecteezy.com/system/resources/thumbnails/036/324/708/small/ai-generated-picture-of-a-tiger-walking-in-the-forest-photo.jpg",
+            "rating": {
+                "rate": 4.7,
+                "count": 500
+            }
+        } ,
+        {
+            "id": "2",
+            "title": "Mens Casual",
+            "price": 0.5,
+            "description": "Mens Casual",
+            "category": " Casual",
+            "image": "https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/1015f/MainBefore.jpg",
+            "rating": {
+                "rate": 4.7,
+                "count": 200
+            }
+        },
+        {
+            "id": "3",
+            "title": "Mens papap",
+            "price": 1,
+            "description": "Mens papap",
+            "category": " papap",
+            "image": "https://img.freepik.com/free-photo/view-chameleon-with-bright-neon-colors_23-2151682742.jpg?semt=ais_hybrid&w=740",
+            "rating": {
+                "rate": 3.7,
+                "count": 600
+            }
+        },
+        {
+            "id": "4",
+            "title": "women catton",
+            "price": 0.1,
+            "description": "women catton",
+            "category": " catton",
+            "image": "https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg",
+            "rating": {
+                "rate": 4,
+                "count": 400
+            }
+        }  
+    ]
+  }
